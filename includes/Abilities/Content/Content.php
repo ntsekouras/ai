@@ -34,7 +34,7 @@ defined( 'ABSPATH' ) || exit;
  * `// Plugin:` comments. Additionally, all user-facing strings use the 'ai' text domain.
  *
  * Plugin: the class is final and instance-based (with private helpers), matching the
- * plugin's other ability classes (e.g. `Settings`) and core's `WP_Settings_Abilities`.
+ * plugin's other ability classes (e.g. `Settings`) and core's `WP_Abilities_Settings`.
  * Core's `WP_Content_Abilities` is still static; the structures are otherwise equivalent.
  *
  * @internal This class should not be used outside the plugin and there is no guarantee of backwards compatibility.
